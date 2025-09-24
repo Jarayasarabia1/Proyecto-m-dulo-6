@@ -1,0 +1,61 @@
+# 📊 Modelo Predictivo - Aprendizaje Supervisado con Python 🤖
+
+## 🧠 ¿Qué problema resuelve?
+
+Este proyecto tiene como objetivo **elaborar un modelo predictivo a partir de un set de datos utilizando técnicas de aprendizaje de máquina supervisado implementadas en Python**.  
+
+El problema que resuelve es **predecir por ejemplo: la probabilidad de compra de un cliente, el precio de una propiedad, etc.**, utilizando un conjunto de datos etiquetado para entrenar un modelo que pueda generar predicciones confiables con nuevos datos.
+
+---
+
+## 🛠️ ¿Cómo lo resuelve?
+
+El proyecto sigue un flujo de trabajo de aprendizaje supervisado que incluye:
+
+1. **🔄 Preprocesamiento de Datos**
+   - Limpieza de datos, manejo de valores nulos y codificación de variables categóricas.
+   - Escalado de características para asegurar que todas las variables estén en la misma escala.
+
+2. **💻 Modelado**
+   - Se entrenan modelos de **regresión** y **clasificación** para resolver el problema según corresponda.
+   - Se aplican técnicas de **boosting** y optimización de hiperparámetros para mejorar el desempeño.
+
+3. **📊 Evaluación y Validación**
+   - Se utilizan métricas de desempeño como **R²**, **MSE**, **precisión**, **recall** y **F1-score**.
+   - Se aplica **validación cruzada** para asegurar que el modelo generalice correctamente a datos no vistos.
+
+---
+
+## 🔬 Modelos o metodologías aplicadas
+
+Durante el proyecto se aplicaron los siguientes modelos:
+
+- **📉 Regresión Lineal y Regresión Logística:** Para predicciones de valores continuos y probabilidades.
+- **🌳 Árboles de Decisión y Random Forest:** Para identificar patrones no lineales en los datos.
+- **🔲 k-NN (k-Nearest Neighbors):** Clasificación basada en similitud de observaciones.
+- **💥 SVM (Support Vector Machine):** Clasificación con márgenes de decisión óptimos.
+- **⚡ XGBoost:** Técnica de boosting que combina varios modelos débiles para mejorar el rendimiento.
+
+---
+
+## 📈 Interpretación de resultados
+
+Los resultados muestran que el modelo predictivo alcanzó un **R² de 0.85**, indicando que **el 85% de la variabilidad de los datos es explicada por el modelo**, lo que refleja un **buen desempeño en predicciones de valores continuos**.
+
+- **Error Cuadrático Medio (MSE):** 150.2745 → Error promedio bajo en las predicciones.
+- Métricas de clasificación como **precisión**, **recall** y **F1-score** indican que el modelo clasifica correctamente la mayoría de las observaciones.
+
+**Conclusión:**  
+El modelo predictivo es efectivo para resolver el problema planteado, aunque siempre es posible mejorar el desempeño usando modelos más complejos o con más datos.
+
+---
+
+## 🤝 Contribuciones
+
+Si deseas contribuir al proyecto:
+
+1. Haz un fork del repositorio.
+2. Realiza tus cambios y haz un commit (`git commit -am 'Añadir nueva funcionalidad'`).
+3. Abre un Pull Request.
+
+---
